@@ -1,4 +1,4 @@
-module zombiezen.com/go/commonmark
+module github.com/lozovskaya/go-commonmark
 
 go 1.20
 
@@ -8,5 +8,3 @@ require (
 	golang.org/x/net v0.8.0
 	golang.org/x/text v0.9.0
 )
-
-replace zombiezen.com/go/commonmark v0.2.0 => github.com/lozovskaya/go-commonmark v0.0.0
