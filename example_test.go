@@ -21,7 +21,7 @@ import (
 	"os"
 	"strings"
 
-	"zombiezen.com/go/commonmark"
+	"github.com/lozovskaya/go-commonmark"
 )
 
 func Example() {

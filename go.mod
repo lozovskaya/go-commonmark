@@ -8,3 +8,5 @@ require (
 	golang.org/x/net v0.8.0
 	golang.org/x/text v0.9.0
 )
+
+replace zombiezen.com/go/commonmark => github.com/lozovskaya/go-commonmark v0.0.0-20250331140439-9613e5daaca8
