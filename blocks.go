@@ -79,6 +79,22 @@ type Block struct {
 	lastLineBlank bool
 }
 
+func (b *Block) BlockChildren() []*Block {
+	if b == nil {
+		return nil
+	}
+	return b.blockChildren
+}
+
+
+func (b *Block) InlineChildren() []*Inline {
+	if b == nil {
+		return nil
+	}
+	return b.inlineChildren
+}
+
+
 // Kind returns the type of block node
 // or zero if the node is nil.
 func (b *Block) Kind() BlockKind {

@@ -34,6 +34,13 @@ type Inline struct {
 	children []*Inline
 }
 
+func (inline *Inline) Children() []*Inline {
+	if inline == nil {
+		return nil
+	}
+	return inline.children
+}
+
 // Kind returns the type of inline node
 // or zero if the node is nil.
 func (inline *Inline) Kind() InlineKind {
