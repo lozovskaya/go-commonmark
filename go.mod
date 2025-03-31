@@ -1,4 +1,4 @@
-module zombiezen.com/go/commonmark
+module github.com/lozovskaya/go-commonmark
 
 go 1.20
 
